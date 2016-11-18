@@ -29,6 +29,14 @@ a {
     float: right;
 }
 
+.sekcja-strony-naglowek .menu-glowne li {
+    display: inline-block;
+}
+
+.sekcja-strony-naglowek .menu-glowne-przelacznik {
+    display: none;
+}
+
 .sekcja-strony-naglowek:after {
     display: block;
     content: '';
@@ -37,7 +45,9 @@ a {
 
 .sekcja-strony-zajawka {
     background-image: url('../image/background-image-2.jpg');
+    background-color: #ff0;
     background-size: cover;
+    background-position: center;
     color: #000;
     height: 100vh;
 
@@ -77,3 +87,30 @@ a {
 .sekcja-strony-o-produkcie .cecha-produktu-1 {
     background-image: url("../image/icon-white-rook.svg");
 }
+
+@media screen and (max-width: 599px) {
+    .sekcja-strony-naglowek .menu-glowne li {
+        display: block;
+    }
+
+    .sekcja-strony-naglowek .menu-glowne {
+        float: none;
+        display: none;
+        text-align: center;
+    }
+
+    .sekcja-strony-naglowek .logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .sekcja-strony-naglowek .menu-glowne-przelacznik {
+        display: inline-block;
+    }
+
+    .sekcja-strony-naglowek .menu-glowne-przelacznik:checked + .menu-glowne {
+        display: block;
+    }
+    
+}
+
