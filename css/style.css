@@ -1,0 +1,79 @@
+.color1 {color:#147F10}
+.color1 {color:#71FF6D}
+.color1 {color:#27FF21}
+.color1 {color:#397F37}
+.color1 {color:#1FCC1A}
+
+a {
+    text-decoration: none;
+}
+
+.sekcja-strony-naglowek {
+    background-color: #71FF6D;
+}
+
+.sekcja-strony-naglowek .logo {
+    float: left;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    font-size: 80px;
+    background-color: red;
+}
+
+.sekcja-strony-naglowek .menu-glowne {
+    background-color: white;
+    float: right;
+}
+
+.sekcja-strony-naglowek:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.sekcja-strony-zajawka {
+    background-image: url('../image/background-image-2.jpg');
+    background-size: cover;
+    color: #000;
+    height: 100vh;
+
+}
+
+.sekcja-strony-zajawka h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.sekcja-strony-o-produkcie {
+    text-align: center;
+}
+
+
+.sekcja-strony-o-produkcie .cecha-produktu {
+    background-image: url("../image/icon-white-knight.svg");
+    background-repeat: no-repeat;
+    background-position:center top 10px;
+    background-size: 50px auto;
+
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+.sekcja-strony-o-produkcie .cecha-produktu-3 {
+    background-image: url("../image/icon-white-knight.svg");
+}
+
+.sekcja-strony-o-produkcie .cecha-produktu-2 {
+    background-image: url("../image/icon-white-pawn.svg");
+}
+
+.sekcja-strony-o-produkcie .cecha-produktu-1 {
+    background-image: url("../image/icon-white-rook.svg");
+}
